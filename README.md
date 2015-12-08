@@ -6,11 +6,12 @@ This is my first repo.
 Hi. I'm Jakub. I like barbacue...
 
 ```php
-$me = stdClass();
+$me = new stdClass();
 $me->name = "Jakub";
 $me->age = 30;
 $me->height = 180.2;
+$me->like = ["books", "food", "barbacue", "piano"];
 
-json_encode($me);
+print_r(json_encode($me));
 ```
 
